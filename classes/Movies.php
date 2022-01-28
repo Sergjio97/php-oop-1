@@ -16,7 +16,7 @@ class Movies {
         $this->genere = $_genere;
         $this->anno = $_anno;
         $this->durata = $_durata;        
-    };
+    }
 }
 
 
