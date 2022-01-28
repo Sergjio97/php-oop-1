@@ -35,6 +35,7 @@ Con l'arrivo di Slim, fannullone giramondo e rubacuori, iniziano le scaramucce t
         <h3> <?php echo $Film->titolo ?> </h3>
         <!-- info film -->
         <ul>
+            <li> Trama : <?php echo $Film->trama ?> </li>
             <li> Lingua : <?php echo $Film->lingua ?> </li>
             <li> Genere : <?php echo $Film->genere ?> </li>
             <li> Anno : <?php echo $Film->anno ?> </li>
