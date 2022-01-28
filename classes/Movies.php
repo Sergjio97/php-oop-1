@@ -9,17 +9,15 @@ class Movies {
     public $durata;
 
     //costruttore
-    public function __construct($_titolo, $_lingua, $_trama, $_genere, $_anno, $_durata) {
+    public function __construct($_titolo, $_lingua, $_genere, $_anno, $_durata) {
 
         $this->titolo = $_titolo;
         $this->lingua = $_lingua;
-        $this->trama = $_trama;
         $this->genere = $_genere;
         $this->anno = $_anno;
         $this->durata = $_durata;        
     };
 }
-
 
 
 ?>
