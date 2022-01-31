@@ -1,6 +1,7 @@
 <?php
 
 class Movies {
+
     public $titolo;
     public $lingua;
     public $trama;
@@ -15,9 +16,18 @@ class Movies {
         $this->lingua = $_lingua;
         $this->genere = $_genere;
         $this->anno = $_anno;
-        $this->durata = $_durata;        
+        $this->durata = $_durata;
+                
     }
-}
 
+    public function getSconto() {
+        if ($this->durata > 110) {
+            return 15;
+        } else {
+            return 10;
+        }
+    }
+
+}
 
 ?>
